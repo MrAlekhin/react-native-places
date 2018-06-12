@@ -51,7 +51,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nXMLX/F0/8wodkOgu1w/eMF5rDI=
+		k/FuGDXzNaPuJ2ZVxXkFVpp2iRc=
+		</data>
+		<key>Ionicons.ttf</key>
+		<data>
+		D3lWcE/mG0nEHqGiIFEkD3AKK0Q=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -63,7 +67,7 @@
 		</data>
 		<key>PlugIns/reactnativebasicsTests.xctest.dSYM/Contents/Resources/DWARF/reactnativebasicsTests</key>
 		<data>
-		HEiQ/td7NU43Q3eXuOQINCtYFOA=
+		lR3OcP1YXBGLbOhsx6QrqzPpQQ4=
 		</data>
 		<key>PlugIns/reactnativebasicsTests.xctest/Info.plist</key>
 		<data>
@@ -75,7 +79,7 @@
 		</data>
 		<key>PlugIns/reactnativebasicsTests.xctest/reactnativebasicsTests</key>
 		<data>
-		tPk8tytb+Dz5cSOXoxm19xc8MT0=
+		E6qFUwWruHs+TpiTvGQ7l0uReWI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -192,6 +196,17 @@
 			Jh5i9giCFfo5GhN25CjMKdDJ6Kdlz/p4L95RITR+WeA=
 			</data>
 		</dict>
+		<key>Ionicons.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			D3lWcE/mG0nEHqGiIFEkD3AKK0Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			u0dnmwuuuEgbf1HGitM65aUmc2y1CxcXzGD/a2X5CKM=
+			</data>
+		</dict>
 		<key>PlugIns/reactnativebasicsTests.xctest.dSYM/Contents/Info.plist</key>
 		<dict>
 			<key>hash</key>
@@ -207,11 +222,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HEiQ/td7NU43Q3eXuOQINCtYFOA=
+			lR3OcP1YXBGLbOhsx6QrqzPpQQ4=
 			</data>
 			<key>hash2</key>
 			<data>
-			sBPFpmjTOvNjiL4oKbwzlFKk1KDogIhsg9f17B1TyiM=
+			uoIE14CqP786KcGKXbkcra4oZbdTHK49+DyqKICMcQY=
 			</data>
 		</dict>
 		<key>PlugIns/reactnativebasicsTests.xctest/Info.plist</key>
@@ -240,11 +255,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tPk8tytb+Dz5cSOXoxm19xc8MT0=
+			E6qFUwWruHs+TpiTvGQ7l0uReWI=
 			</data>
 			<key>hash2</key>
 			<data>
-			e0PTECbJqWoDI0GoVZFShiUOTZq7snY7H92eXdVV2wA=
+			9SCBawd2O8ylKsE2BrUgwWOUBwET2FldlxkXE3yaCt0=
 			</data>
 		</dict>
 	</dict>
