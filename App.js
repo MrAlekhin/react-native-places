@@ -18,6 +18,7 @@ class App extends React.Component {
 
   placeAddedHandler = placeName => {
     this.props.onAddPlace(placeName);
+    console.log('Place Added!');
   };
 
   placeDeletedHandler = ()=>{
