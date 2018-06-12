@@ -1,0 +1,36 @@
+dependencies: \
+  /Users/artem/ReactNative/react-native-basics/node_modules/react-native-navigation/ios/RCCManagerModule.m \
+  /Users/artem/ReactNative/react-native-basics/node_modules/react-native-navigation/ios/RCCManagerModule.h \
+  /Users/artem/ReactNative/react-native-basics/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/artem/ReactNative/react-native-basics/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/artem/ReactNative/react-native-basics/node_modules/react-native-navigation/ios/RCCManager.h \
+  /Users/artem/ReactNative/react-native-basics/node_modules/react-native-navigation/ios/RCCNavigationController.h \
+  /Users/artem/ReactNative/react-native-basics/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/artem/ReactNative/react-native-basics/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/artem/ReactNative/react-native-basics/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/artem/ReactNative/react-native-basics/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/artem/ReactNative/react-native-basics/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/artem/ReactNative/react-native-basics/node_modules/react-native-navigation/ios/RCCViewController.h \
+  /Users/artem/ReactNative/react-native-basics/node_modules/react-native-navigation/ios/RCCDrawerController/RCCDrawerController.h \
+  /Users/artem/ReactNative/react-native-basics/node_modules/react-native-navigation/ios/RCCDrawerController/MMDrawerController/MMDrawerController.h \
+  /Users/artem/ReactNative/react-native-basics/node_modules/react-native-navigation/ios/RCCDrawerController/RCCDrawerProtocol.h \
+  /Users/artem/ReactNative/react-native-basics/node_modules/react-native-navigation/ios/RCCLightBox.h \
+  /Users/artem/ReactNative/react-native-basics/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/artem/ReactNative/react-native-basics/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/artem/ReactNative/react-native-basics/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/artem/ReactNative/react-native-basics/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/artem/ReactNative/react-native-basics/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/artem/ReactNative/react-native-basics/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/artem/ReactNative/react-native-basics/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/artem/ReactNative/react-native-basics/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/artem/ReactNative/react-native-basics/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/artem/ReactNative/react-native-basics/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/artem/ReactNative/react-native-basics/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/artem/ReactNative/react-native-basics/node_modules/react-native-navigation/ios/RCCTabBarController.h \
+  /Users/artem/ReactNative/react-native-basics/node_modules/react-native-navigation/ios/RCCDrawerController/RCCTheSideBarManagerViewController.h \
+  /Users/artem/ReactNative/react-native-basics/node_modules/react-native-navigation/ios/RCCDrawerController/TheSidebarController/TheSidebarController.h \
+  /Users/artem/ReactNative/react-native-basics/node_modules/react-native-navigation/ios/RCCDrawerController/TheSidebarController/Animations/SidebarAnimation.h \
+  /Users/artem/ReactNative/react-native-basics/node_modules/react-native-navigation/ios/RCCNotification.h \
+  /Users/artem/ReactNative/react-native-basics/node_modules/react-native-navigation/ios/Helpers/RCTHelpers.h \
+  /Users/artem/ReactNative/react-native-basics/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/artem/ReactNative/react-native-basics/node_modules/react-native-navigation/ios/RNNSwizzles.h
