@@ -5,6 +5,7 @@ import startMainTabs from '../MainTabs/startMainTabs';
 import DefautInput from '../../components/UI/DefaultInput/DefaultInput';
 import HeadingText from '../../components/UI/HeadingText/HeadingText';
 import MainText from '../../components/UI/MainText/MainText';
+import ButtonWithBackground from '../../components/UI/ButtonWithBackground/ButtonWithBackground';
 import backgroundImage from '../../assets/background.jpg';
 
 class AuthScreen extends Component{
@@ -14,22 +15,20 @@ class AuthScreen extends Component{
 
     render(){
         return(
-            
-                <ImageBackground source={backgroundImage} style={styles.backgroundImage}>
-                    <View style={styles.container}>
+            <ImageBackground source={backgroundImage} style={styles.backgroundImage}>
+                <View style={styles.container}>
                     <MainText>
                         <HeadingText style={styles.textHeading}>Signup</HeadingText>
                     </MainText>
-                    <Button title="Switch to login" />
+                    <ButtonWithBackground color="#29aaf4" onPress={() => alert("Hello")}>Switch to Login</ButtonWithBackground>
                     <View style={styles.inputContainer}>
                         <DefautInput placeholder="Your E-Mail Address" style={styles.input} />
                         <DefautInput placeholder="Password" style={styles.input}/>
                         <DefautInput placeholder="Confirm Password" style={styles.input}/>
                     </View>
-                    <Button title="Register" onPress={this.loginHandler} />
-                    </View>
-                </ImageBackground>
-            
+                    <ButtonWithBackground color="#29aaf4" onPress={this.loginHandler}>Submit</ButtonWithBackground>
+                </View>
+            </ImageBackground>
         );
     }
 }
