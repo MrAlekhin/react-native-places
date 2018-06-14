@@ -4,6 +4,7 @@ import {View, Text, Button, TextInput, StyleSheet} from 'react-native';
 import startMainTabs from '../MainTabs/startMainTabs';
 import DefautInput from '../../components/UI/DefaultInput/DefaultInput';
 import HeadingText from '../../components/UI/HeadingText/HeadingText';
+import MainText from '../../components/UI/MainText/MainText'
 
 class AuthScreen extends Component{
     loginHandler = () => {
@@ -13,7 +14,9 @@ class AuthScreen extends Component{
     render(){
         return(
             <View style={styles.container}>
-                <HeadingText style={styles.textHeading}>Signup</HeadingText>
+                <MainText>
+                    <HeadingText style={styles.textHeading}>Signup</HeadingText>
+                </MainText>
                 <Button title="Switch to login" />
                 <View style={styles.inputContainer}>
                     <DefautInput placeholder="Your E-Mail Address" style={styles.input} />
@@ -30,8 +33,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         alignItems: "center",
-        justifyContent: "center",
-
+        justifyContent: "center"
     },
     inputContainer: {
         width: "80%"
