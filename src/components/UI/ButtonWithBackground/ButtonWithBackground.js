@@ -4,7 +4,7 @@ import {TouchableOpacity, Text, View, StyleSheet} from 'react-native';
 const buttonWithBackground = props =>(
     <TouchableOpacity onPress={props.onPress}>
         <View style={[styles.button, {backgroundColor: props.color}]}>
-            <Text style={[styles.textColor, {color: props.textColor}, props.textStyles]}>{props.children}</Text>
+            <Text style={props.textColor}>{props.children}</Text>
         </View>
     </TouchableOpacity>
 );
@@ -16,9 +16,6 @@ const styles = StyleSheet.create({
         borderRadius: 5,
         borderWidth: 1,
         borderColor: "black"
-    },
-    textColor: {
-        color: "black"
     }
 });
 
