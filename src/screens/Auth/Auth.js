@@ -23,13 +23,17 @@ class AuthScreen extends Component{
 
     constructor(props){
         super(props);
-        Dimensions.addEventListener("change", dims=> {
-            this.setState({
+        Dimensions.addEventListener("change", this.updateStyles);
+    }
 
-                    viewMode: Dimensions.get("window").height > 500 ? "portrait" : "landscape"
-                
-            })
-        });
+    componentWillUnmount(){
+        Dimensions.removeEventListener("change", this.updateStyles);
+    }
+
+    updateStyles = (dims) =>{
+        this.setState({
+            viewMode: dims.window.height > 500 ? "portrait" : "landscape"
+        })
     }
 
     loginHandler = () => {
