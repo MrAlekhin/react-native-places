@@ -179,7 +179,10 @@ class AuthScreen extends Component{
                             value={this.state.controls.email.value}
                             onChangeText = {(val)=>this.updateInputState('email', val)}
                             valid = {this.state.controls.email.valid}
-                            touched = {this.state.controls.email.touched} 
+                            touched = {this.state.controls.email.touched}
+                            autoCapitalize = "none"
+                            autoCorrect = {false}
+                            keyboardType = "email-address"
                         />
                         <View 
                             style={
@@ -203,6 +206,7 @@ class AuthScreen extends Component{
                                     onChangeText = { val =>this.updateInputState('password', val)}
                                     valid = {this.state.controls.password.valid}
                                     touched = {this.state.controls.password.touched}
+                                    secureTextEntry
                                 />
                             </View>
                             {confirmPasswordControl}
