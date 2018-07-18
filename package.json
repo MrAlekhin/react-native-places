@@ -18,8 +18,11 @@
     "preset": "react-native"
   },
   "dependencies": {
+    "ajv": "^5.5.2",
+    "eslint": "^4.19.1",
     "react": "16.3.1",
     "react-native": "~0.55.2",
+    "react-native-maps": "^0.17.1",
     "react-native-navigation": "^1.1.471",
     "react-native-vector-icons": "^4.6.0",
     "react-redux": "^5.0.7",
