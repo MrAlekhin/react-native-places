@@ -28,32 +28,32 @@
         "source": "/Users/artem/ReactNative/react-native-basics/android/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_navigation_item_separator.xml"
     },
     {
-        "merged": "/Users/artem/ReactNative/react-native-basics/android/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
-        "source": "/Users/artem/ReactNative/react-native-basics/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/notification_template_icon_group.xml"
-    },
-    {
         "merged": "/Users/artem/ReactNative/react-native-basics/android/app/build/intermediates/res/merged/debug/layout/redbox_view.xml",
         "source": "/Users/artem/ReactNative/react-native-basics/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/res/layout/redbox_view.xml"
     },
     {
-        "merged": "/Users/artem/ReactNative/react-native-basics/android/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
-        "source": "/Users/artem/ReactNative/react-native-basics/android/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_navigation_menu.xml"
+        "merged": "/Users/artem/ReactNative/react-native-basics/android/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
+        "source": "/Users/artem/ReactNative/react-native-basics/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/notification_template_icon_group.xml"
     },
     {
         "merged": "/Users/artem/ReactNative/react-native-basics/android/app/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
         "source": "/Users/artem/ReactNative/react-native-basics/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/layout/notification_media_cancel_action.xml"
     },
     {
+        "merged": "/Users/artem/ReactNative/react-native-basics/android/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
+        "source": "/Users/artem/ReactNative/react-native-basics/android/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/res/layout/design_navigation_menu.xml"
+    },
+    {
         "merged": "/Users/artem/ReactNative/react-native-basics/android/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
         "source": "/Users/artem/ReactNative/react-native-basics/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "/Users/artem/ReactNative/react-native-basics/android/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
-        "source": "/Users/artem/ReactNative/react-native-basics/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/select_dialog_multichoice_material.xml"
-    },
-    {
         "merged": "/Users/artem/ReactNative/react-native-basics/android/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
         "source": "/Users/artem/ReactNative/react-native-basics/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/artem/ReactNative/react-native-basics/android/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/artem/ReactNative/react-native-basics/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/select_dialog_multichoice_material.xml"
     },
     {
         "merged": "/Users/artem/ReactNative/react-native-basics/android/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
@@ -154,6 +154,10 @@
     {
         "merged": "/Users/artem/ReactNative/react-native-basics/android/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
         "source": "/Users/artem/ReactNative/react-native-basics/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/artem/ReactNative/react-native-basics/android/app/build/intermediates/res/merged/debug/layout/list_item.xml",
+        "source": "/Users/artem/ReactNative/react-native-basics/android/app/build/intermediates/exploded-aar/reactnativebasics/react-native-image-picker/unspecified/res/layout/list_item.xml"
     },
     {
         "merged": "/Users/artem/ReactNative/react-native-basics/android/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
