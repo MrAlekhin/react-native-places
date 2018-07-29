@@ -6,6 +6,9 @@
 # dependencies
 /node_modules
 
+/functions/awesome-places.json
+/functions/node_modules
+
 # misc
 .env.local
 .env.development.local
