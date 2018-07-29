@@ -76,7 +76,6 @@ class SharePlaceScreen extends Component {
   };
 
   locationPickedHandler = location => {
-    alert(JSON.stringify(location));
     this.setState(prevState => {
       return {
         controls: {
