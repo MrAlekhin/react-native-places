@@ -1,4 +1,5 @@
 import { TRY_AUTH } from './actionTypes';
+import { GOOGLE_API_KEY } from '../../../.keys'
 
 export const tryAuth = (authData) => {
     return dispatch => {
@@ -8,7 +9,7 @@ export const tryAuth = (authData) => {
 
 export const authSignup = (authData) => {
     return dispatch => {
-        fetch("https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyCustomToken?key=AIzaSyC74zClxpl24iQOzRB3O1QsfRchw4WOgkg", {
+        fetch(`https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyCustomToken?key=${GOOGLE_API_KEY}`, {
             method: "POST",
             body: JSON.stringify({
                 email: authData.email,
