@@ -6,7 +6,7 @@ import {
 	SET_PLACES
 } from "./actionTypes";
 
-import { uiStartLoading, uiStopLoading } from "./index";
+import { uiStartLoading, uiStopLoading, authGetToken } from "./index";
 // import { parse } from "url";
 
 export const addPlace = (placeName, location, image) => {
@@ -55,14 +55,24 @@ export const addPlace = (placeName, location, image) => {
 
 export const getPlaces = () => {
 	return (dispatch, getState) => {
-		const token = getState().auth.token;
-		if (!token) {
-			return;
-		}
-		return fetch(
-			"https://awesome-places-1529891005545.firebaseio.com/places.json?auth=" +
-				token
-		)
+		dispatch(authGetToken())
+			.then(token => {
+				return fetch(
+					"https://awesome-places-1529891005545.firebaseio.com/places.json?auth=" +
+						token
+				);
+			})
+			.catch(() => {
+				alert("No valid token found!");
+			})
+			// const token = getState().auth.token;
+			// if (!token) {
+			// 	return;
+			// }
+			// return fetch(
+			// 	"https://awesome-places-1529891005545.firebaseio.com/places.json?auth=" +
+			// 		token
+			// )
 			.then(res => res.json())
 			.then(parsedRes => {
 				const places = [];
