@@ -65,14 +65,6 @@ export const getPlaces = () => {
 			.catch(() => {
 				alert("No valid token found!");
 			})
-			// const token = getState().auth.token;
-			// if (!token) {
-			// 	return;
-			// }
-			// return fetch(
-			// 	"https://awesome-places-1529891005545.firebaseio.com/places.json?auth=" +
-			// 		token
-			// )
 			.then(res => res.json())
 			.then(parsedRes => {
 				const places = [];
