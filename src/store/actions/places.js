@@ -11,29 +11,44 @@ import { uiStartLoading, uiStopLoading, authGetToken } from "./index";
 
 export const addPlace = (placeName, location, image) => {
 	return dispatch => {
+		let authToken;
 		dispatch(uiStartLoading());
-		fetch(
-			"https://us-central1-awesome-places-1529891005545.cloudfunctions.net/storeImage",
-			{
-				method: "POST",
-				body: JSON.stringify({
-					image: image.base64
-				})
-			}
-		)
+		dispatch(authGetToken())
+			.catch(() => {
+				alert("No valid token found!");
+			})
+			.then(token => {
+				authToken = token;
+				return fetch(
+					`https://us-central1-awesome-places-1529891005545.cloudfunctions.net/storeImage`,
+					{
+						method: "POST",
+						body: JSON.stringify({
+							image: image.base64
+						}),
+						headers: {
+							Authorization: "Bearer " + authToken
+						}
+					}
+				);
+			})
+
 			.catch(err => {
 				console.log(err);
+				alert("Something went wrong!");
 				dispatch(uiStopLoading());
 			})
 			.then(res => res.json())
 			.then(parsedRes => {
+				console.log(parsedRes);
 				const placeData = {
 					name: placeName,
 					location: location,
 					image: parsedRes.imageUrl
 				};
 				return fetch(
-					"https://awesome-places-1529891005545.firebaseio.com/places.json",
+					"https://awesome-places-1529891005545.firebaseio.com/places.json?auth=" +
+						authToken,
 					{
 						method: "POST",
 						body: JSON.stringify(placeData)
@@ -56,15 +71,15 @@ export const addPlace = (placeName, location, image) => {
 export const getPlaces = () => {
 	return (dispatch, getState) => {
 		dispatch(authGetToken())
-			.then(token => {
-				return fetch(
-					"https://awesome-places-1529891005545.firebaseio.com/places.json?auth=" +
-						token
-				);
-			})
 			.catch(() => {
 				alert("No valid token found!");
 			})
+			.then(token => {
+				return fetch(
+					`https://awesome-places-1529891005545.firebaseio.com/places.json?auth=${token}`
+				);
+			})
+
 			.then(res => res.json())
 			.then(parsedRes => {
 				const places = [];
@@ -96,13 +111,19 @@ export const setPlaces = places => {
 export const deletePlace = key => {
 	return dispatch => {
 		dispatch(uiStartLoading());
+		dispatch(authGetToken())
+			.catch(() => {
+				alert("No valid token found!");
+			})
+			.then(token => {
+				return fetch(
+					`https://awesome-places-1529891005545.firebaseio.com/places/${key}.json?auth=${token}`,
+					{
+						method: "DELETE"
+					}
+				);
+			})
 
-		return fetch(
-			`https://awesome-places-1529891005545.firebaseio.com/places/${key}.json`,
-			{
-				method: "DELETE"
-			}
-		)
 			.then(res => {
 				dispatch(removePlace(key));
 			})
