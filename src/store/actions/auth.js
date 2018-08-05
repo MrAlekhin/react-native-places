@@ -39,6 +39,7 @@ export const tryAuth = (authData, authMode) => {
 					alert("Authentication failed, please try again!");
 				} else {
 					dispatch(authSetToken(parsedRes.idToken));
+					dispatch(authStoreToken(parsedRes.idToken));
 					startMainTabs();
 				}
 			});
@@ -67,6 +68,10 @@ export const authGetToken = () => {
 				AsyncStorage.getItem("ap:auth:token")
 					.catch(err => reject())
 					.then(tokenFromStorage => {
+						if (!tokenFromStorage) {
+							reject();
+							return;
+						}
 						dispatch(authSetToken(tokenFromStorage));
 						resolve(tokenFromStorage);
 					});
@@ -75,5 +80,15 @@ export const authGetToken = () => {
 			}
 		});
 		return promise;
+	};
+};
+
+export const authAutoSignIn = () => {
+	return dispatch => {
+		dispatch(authGetToken())
+			.then(token => {
+				startMainTabs();
+			})
+			.catch(err => console.log("Failed to fetch token"));
 	};
 };
