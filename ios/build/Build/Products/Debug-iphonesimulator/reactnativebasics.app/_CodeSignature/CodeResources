@@ -30,31 +30,31 @@
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
 		<data>
-		ooz0sIAaLKBGoFU5iKq8DR11NmY=
+		8CN5cCzwKl0+7ieNPMN/SawZQA8=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/Info.plist</key>
 		<data>
-		R/knOPjsjrJNiVtUa2S4kYE749M=
+		Cwsl4MoHt6dTvyYXRy5C2x7Kd88=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/_CodeSignature/CodeResources</key>
 		<data>
-		qcVgsOCxIzxwcNXLWXgRrNjnuT8=
+		UU+vWjYvpE8lKAxV1lE2tUbIZA0=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/version.plist</key>
 		<data>
-		K7jOt4uC+lqy/StneXlQVk21axY=
+		znuKt4UiTOJWwzrlgwaYX94o/a4=
 		</data>
 		<key>Frameworks/XCTest.framework/Info.plist</key>
 		<data>
-		CYfyvPIGUR84QvCD7SuNDvG6Bxc=
+		uPxPInP5h9+ERgCm8NCXpuuMEmg=
 		</data>
 		<key>Frameworks/XCTest.framework/XCTest</key>
 		<data>
-		M3EBma1BpAxt7iGIjYcrm9BnNOc=
+		aHoR6mqqp0XWLqiw49+MRuFNQLk=
 		</data>
 		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
 		<data>
-		5EUn1qFgVTwSkfSLCubcLwgrx0c=
+		2JoYDV6DTsckEmF+l3Ruo1S1Iqk=
 		</data>
 		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
 		<dict>
@@ -67,7 +67,7 @@
 		</dict>
 		<key>Frameworks/XCTest.framework/version.plist</key>
 		<data>
-		Etc/8BPenX54rv1uBx24u4bnqTg=
+		DmGu9k7yBOLSfwtyNbn3zYir630=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -99,19 +99,19 @@
 		</data>
 		<key>PlugIns/reactnativebasicsTests.xctest.dSYM/Contents/Resources/DWARF/reactnativebasicsTests</key>
 		<data>
-		Jea8OZ1tv9pN3BnAeAzUBsy/+i4=
+		F0td97t8UNcOEy/2oKVfx30Nfss=
 		</data>
 		<key>PlugIns/reactnativebasicsTests.xctest/Info.plist</key>
 		<data>
-		6z45it/pehRvQJ0FSNaXKTWVRPs=
+		ocSiRUfnYvgAdmRFagEFRnxoobo=
 		</data>
 		<key>PlugIns/reactnativebasicsTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
-		c++or5OwMODxwrKDulN/i3QbWHs=
+		3PI+sSs2V3Hwgiu7Ak+evcQbtSc=
 		</data>
 		<key>PlugIns/reactnativebasicsTests.xctest/reactnativebasicsTests</key>
 		<data>
-		oyYU/tVAWzyqrsXR4Mh/mAtMn+8=
+		IGVBb4vKBsKGw+suV+MU8yTj4b0=
 		</data>
 		<key>SimpleLineIcons.ttf</key>
 		<data>
@@ -194,77 +194,77 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ooz0sIAaLKBGoFU5iKq8DR11NmY=
+			8CN5cCzwKl0+7ieNPMN/SawZQA8=
 			</data>
 			<key>hash2</key>
 			<data>
-			QTZkTlnemyTcrFMb3v3GdQcfmpRodaOjtevd5TjxiiY=
+			/R1Uy1RZ7ljX2V8ZHMhD4g8ieWHns9sj34YDK2McvfY=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			R/knOPjsjrJNiVtUa2S4kYE749M=
+			Cwsl4MoHt6dTvyYXRy5C2x7Kd88=
 			</data>
 			<key>hash2</key>
 			<data>
-			wLDjbULmM78l0rN5jh2/yPax234qVZL29OQBQmdYmOU=
+			IvG0kD54lYvEZzfjVmXtrtBdydTUy1uFZkZXUddfTzY=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qcVgsOCxIzxwcNXLWXgRrNjnuT8=
+			UU+vWjYvpE8lKAxV1lE2tUbIZA0=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZARlo4LD/z4nYhaCEocjb6nPjuZDCrLsQzn0n4GVr3s=
+			Ja3vToXIdN/BmsoAh4U4btDVl5lKbzndKf99CyxV6K4=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/version.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			K7jOt4uC+lqy/StneXlQVk21axY=
+			znuKt4UiTOJWwzrlgwaYX94o/a4=
 			</data>
 			<key>hash2</key>
 			<data>
-			VzM0aDQjkmLy+IyPasdn9DeGkOOTuNMbKUMz+3efAaU=
+			napzzKlhgK6Qoqz8QO+9TkyuIsW5V+s6GmClALe2lT4=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			CYfyvPIGUR84QvCD7SuNDvG6Bxc=
+			uPxPInP5h9+ERgCm8NCXpuuMEmg=
 			</data>
 			<key>hash2</key>
 			<data>
-			Xsgm2dBly62EneiB04ryti89smi53XIXAOtYLFyW4ZE=
+			N77/gSJpnPT4ryPaR4IJ55aYyiiMCKjlq79qrCmGxU8=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/XCTest</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			M3EBma1BpAxt7iGIjYcrm9BnNOc=
+			aHoR6mqqp0XWLqiw49+MRuFNQLk=
 			</data>
 			<key>hash2</key>
 			<data>
-			qAlGOWS6ltLA/WrYd4Rz6EHPivttCiNu41NTW7ulBAI=
+			unqlGEn5cq6B36PWWq/mAoeeub7L9yZ3vWK7mP9EscQ=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5EUn1qFgVTwSkfSLCubcLwgrx0c=
+			2JoYDV6DTsckEmF+l3Ruo1S1Iqk=
 			</data>
 			<key>hash2</key>
 			<data>
-			55ZdMLgNGz7Q67XNAv/M4f4uXy0R2d5+tlHRhlkL8t4=
+			OXS9XX1oATlfFoPHZbc7OGt7HUXfXzNrCz28TkkBo/g=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
@@ -284,11 +284,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Etc/8BPenX54rv1uBx24u4bnqTg=
+			DmGu9k7yBOLSfwtyNbn3zYir630=
 			</data>
 			<key>hash2</key>
 			<data>
-			Jh5i9giCFfo5GhN25CjMKdDJ6Kdlz/p4L95RITR+WeA=
+			2hnwNPgdaewT28DbTqe0Gpaccdc2akBF8IjnGtISc58=
 			</data>
 		</dict>
 		<key>Ionicons.ttf</key>
@@ -350,44 +350,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Jea8OZ1tv9pN3BnAeAzUBsy/+i4=
+			F0td97t8UNcOEy/2oKVfx30Nfss=
 			</data>
 			<key>hash2</key>
 			<data>
-			0/kelA4qadJXQU+mEf61BoMVmqWZZK+HgpYKXgZDu38=
+			dYN16D+Mx4EIl5fTzFuWBatp4a36LM4zJca7R9qEk0w=
 			</data>
 		</dict>
 		<key>PlugIns/reactnativebasicsTests.xctest/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6z45it/pehRvQJ0FSNaXKTWVRPs=
+			ocSiRUfnYvgAdmRFagEFRnxoobo=
 			</data>
 			<key>hash2</key>
 			<data>
-			gVnaUPc8jgStaR2LRlvfMe/wjGQcdaecKAHeATYeVeU=
+			YeAd0ojOAfWX82YMLIYZKGpynD7Peu43VETT9hMg9m4=
 			</data>
 		</dict>
 		<key>PlugIns/reactnativebasicsTests.xctest/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			c++or5OwMODxwrKDulN/i3QbWHs=
+			3PI+sSs2V3Hwgiu7Ak+evcQbtSc=
 			</data>
 			<key>hash2</key>
 			<data>
-			4TvMxk9vhujVyls9KDTX4rBZMKAWqXrMw1T2BVT8BGs=
+			qYzDqFhL2ZHG7dEBxvswKofl1ONdfUUJpKEQA0xfXfM=
 			</data>
 		</dict>
 		<key>PlugIns/reactnativebasicsTests.xctest/reactnativebasicsTests</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oyYU/tVAWzyqrsXR4Mh/mAtMn+8=
+			IGVBb4vKBsKGw+suV+MU8yTj4b0=
 			</data>
 			<key>hash2</key>
 			<data>
-			064j96IP5Cp/dBuw2VznTdl+jGsWjmwRfPDPGiBQ4Qk=
+			HgENGu2b8CKGcSTfoSzWkKD7tP8/2UQC3TnJ5g5vbIo=
 			</data>
 		</dict>
 		<key>SimpleLineIcons.ttf</key>
